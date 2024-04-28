@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 
 import "./index.scss";
 
@@ -11,4 +11,5 @@ const App = () => (
     <div>CSS: Tailwind</div>
   </div>
 );
-ReactDOM.render(<App />, document.getElementById("app"));
+createRoot(document.getElementById("app")).render(<App />);
+

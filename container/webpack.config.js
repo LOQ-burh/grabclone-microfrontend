@@ -1,8 +1,9 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
-const Dotenv = require('dotenv-webpack');
 const deps = require("./package.json").dependencies;
-module.exports = (_, argv) => ({
+
+module.exports = async (_, { mode = 'development' }) => ({
+  mode,
   output: {
     publicPath: "http://localhost:8080/",
   },
@@ -12,6 +13,9 @@ module.exports = (_, argv) => ({
   },
 
   devServer: {
+    hot: true,
+    open: true,
+    compress: true,
     port: 8080,
     historyApiFallback: true,
   },
@@ -42,11 +46,11 @@ module.exports = (_, argv) => ({
   plugins: [
     new ModuleFederationPlugin({
       name: "container",
-      filename: "remoteEntry.js",
-        remotes: {
-          counter: "counter@http://localhost:8082/remoteEntry.js",
-        },
-      exposes: {},
+      filename: "containerRemoteEntry.js",
+      remotes: {
+        Layout: "counterLayout@http://localhost:8086/counterLayoutRemoteEntry.js",
+        
+      },
       shared: {
         ...deps,
         react: {
@@ -62,6 +66,5 @@ module.exports = (_, argv) => ({
     new HtmlWebPackPlugin({
       template: "./src/index.html",
     }),
-    new Dotenv()
   ],
 });

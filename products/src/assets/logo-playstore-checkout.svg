@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>icon/playstore</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="62.7981684%" y1="4.98405104%" x2="22.7591127%" y2="71.8899522%" id="linearGradient-1">
+            <stop stop-color="#00A0FF" offset="0%"></stop>
+            <stop stop-color="#00A1FF" offset="1%"></stop>
+            <stop stop-color="#00BEFF" offset="26%"></stop>
+            <stop stop-color="#00D2FF" offset="51%"></stop>
+            <stop stop-color="#00DFFF" offset="76%"></stop>
+            <stop stop-color="#00E3FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="108.003953%" y1="50.0583431%" x2="-131.126482%" y2="50.0583431%" id="linearGradient-2">
+            <stop stop-color="#FFE000" offset="0%"></stop>
+            <stop stop-color="#FFBD00" offset="41%"></stop>
+            <stop stop-color="#FFA500" offset="78%"></stop>
+            <stop stop-color="#FF9C00" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="86.219293%" y1="33.5309967%" x2="-50.0898742%" y2="124.153686%" id="linearGradient-3">
+            <stop stop-color="#FF3A44" offset="0%"></stop>
+            <stop stop-color="#C31162" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-18.8136609%" y1="-3.32042628%" x2="42.1210306%" y2="37.1510694%" id="linearGradient-4">
+            <stop stop-color="#32A071" offset="0%"></stop>
+            <stop stop-color="#2DA771" offset="7%"></stop>
+            <stop stop-color="#15CF74" offset="48%"></stop>
+            <stop stop-color="#06E775" offset="80%"></stop>
+            <stop stop-color="#00F076" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="downlaod-app" transform="translate(-150.000000, -78.000000)">
+            <g id="Group-4">
+                <g transform="translate(149.000000, 77.000000)">
+                    <g id="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917">
+                        <g id="Group">
+                            <g id="_Group_" transform="translate(0.173913, 0.716667)">
+                                <g id="icon/playstore" transform="translate(0.826087, 0.283333)">
+                                    <g id="Asset-2" transform="translate(0.615385, 0.428571)">
+                                        <path d="M1.12307692,1 C0.872357659,1.2793631 0.7458105,1.63699637 0.769230769,2 L0.769230769,17.8 C0.7458105,18.1630036 0.872357659,18.5206369 1.12307692,18.8 L1.18461538,18.8571429 L10.7153846,10 L10.7153846,9.78571429 L1.18461538,0.942857143 L1.12307692,1 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                                        <path d="M13.8923077,12.9571429 L10.7153846,10 L10.7153846,9.78571429 L13.8923077,6.83571429 L13.9615385,6.87857143 L17.6923077,8.87142857 C18.7692308,9.43571429 18.7692308,10.3642857 17.6923077,10.9285714 L13.9307692,12.9142857 L13.8923077,12.9571429 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                                        <path d="M13.9615385,12.9142857 L10.7153846,9.9 L1.12307692,18.8 C1.57472691,19.1725022 2.24905356,19.1905646 2.72307692,18.8428571 L13.9615385,12.9142857" id="Path" fill="url(#linearGradient-3)"></path>
+                                        <path d="M13.9615385,6.88571429 L2.72307692,0.957142857 C2.24905356,0.60943545 1.57472691,0.62749777 1.12307692,1 L10.7153846,9.9 L13.9615385,6.88571429 Z" id="Path" fill="url(#linearGradient-4)"></path>
+                                        <path d="M13.8923077,12.8571429 L2.72307692,18.7428571 C2.26781093,19.0619137 1.63988137,19.0619137 1.18461538,18.7428571 L1.18461538,18.7428571 L1.12307692,18.7928571 L1.12307692,18.7928571 L1.18461538,18.85 L1.18461538,18.85 C1.63900183,19.1714853 2.26869048,19.1714853 2.72307692,18.85 L13.9615385,12.9214286 L13.8923077,12.8571429 Z" id="Path" fill="#000000" opacity="0.2"></path>
+                                        <path d="M1.12307692,18.7 C0.870480122,18.4188036 0.743813164,18.0582748 0.769230769,17.6928571 L0.769230769,17.8 C0.7458105,18.1630036 0.872357659,18.5206369 1.12307692,18.8 L1.18461538,18.75 L1.12307692,18.7 Z" id="Path" fill="#000000" opacity="0.12"></path>
+                                        <path d="M17.6923077,10.8285714 L13.8461538,12.85 L13.9153846,12.9142857 L17.6923077,10.9285714 C18.1434639,10.7482216 18.4530203,10.354011 18.5,9.9 L18.5,9.9 C18.40409,10.3107264 18.1045507,10.6550948 17.6923077,10.8285714 L17.6923077,10.8285714 Z" id="Path" fill="#000000" opacity="0.12"></path>
+                                        <path d="M2.72307692,1.05714286 L17.6923077,8.97142857 C18.1045507,9.1449052 18.40409,9.48927362 18.5,9.9 L18.5,9.9 C18.4530203,9.44598898 18.1434639,9.05177838 17.6923077,8.87142857 L2.72307692,0.957142857 C1.64615385,0.385714286 0.769230769,0.857142857 0.769230769,2 L0.769230769,2.14285714 C0.769230769,0.964285714 1.64615385,0.492857143 2.72307692,1.05714286 Z" id="Path" fill="#FFFFFF" opacity="0.25"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
