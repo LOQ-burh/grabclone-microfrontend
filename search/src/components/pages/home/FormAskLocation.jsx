@@ -5,10 +5,10 @@ import 'tailwindcss/tailwind.css';
 function FormAskLocation() {
     return (
         <div
-            className="absolute top-28 w-full rounded-lg border-[1px] bg-white p-5 md:max-w-[355px] "
+            className="absolute top-0 md:top-28 w-full md:rounded-lg border-[1px] bg-white p-5 md:max-w-[355px] "
             style={{ maxWidth: '355px', top: '7rem' , borderRadius: '0.5rem' }}
         >
-            <h3 className="mt-5 text-2xl font-bold" style={{ marginTop: '1.25rem'}}>Good Morning</h3>
+            <h3 className="font-bold mt-40 md:mt-5  text-2xl" style={{ marginTop: '1.25rem'}}>Good Morning</h3>
             <h1 className="text-2xl font-bold lg:text-4xl">
                 Where should we deliver your food today?
             </h1>
