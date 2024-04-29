@@ -1,4 +1,4 @@
-import ArrowRight from '../../assets/chevron-right-solid.svg';
+import ArrowRight from '../../assets/icons/chevron-right-solid.svg';
 
 function BreadCrumb() {
   return (

@@ -1,5 +1,4 @@
-// import AddIcon from '../../assets/icon-plus.svg';
-import PlusWhiteIcon from '../../assets/plus-solid-white.svg';
+import PlusWhiteIcon from '../../../assets/icons/plus-solid-white.svg';
 
 function ItemProducts(props) {
   return (

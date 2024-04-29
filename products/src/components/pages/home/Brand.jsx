@@ -1,14 +1,14 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BrandLocal } from "../../utils/data/BrandLocal";
-import starIcon from "../../assets/star-solid.svg"
-import clockIcon from "../../assets/clock-regular.svg"
-import tagPromos from "../../assets/icon-promo-tag.svg"
+import { BrandLocal } from "../../../utils/data/BrandLocal";
+import starIcon from "../../../assets/icons/star-solid.svg";
+import clockIcon from "../../../assets/icons/clock-regular.svg";
+import tagPromos from "../../../assets/icons/icon-promo-tag.svg";
 
 function Brand() {
   const configSlider = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -22,7 +22,6 @@ function Brand() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
         },
       },
       {
@@ -63,7 +62,7 @@ function Brand() {
                     </div>
                     &nbsp;&nbsp;&nbsp;
                     <div className="flex">
-                        <img className="max-sm:w-[18px] opacity-50" src={clockIcon} style={{width : '16px'}}></img>
+                        <img className="max-sm:w-[18px] opacity-50" src={clockIcon} style={{width : '16px'}}/>
                         &nbsp;&nbsp;
                         <span>{d.time}</span>
                     </div>
@@ -84,7 +83,7 @@ function Brand() {
         <div className="flex justify-center p-4 ">
           <div className="w-full">
             <a href="/promostion">
-              <div className=" hover:border-green-grab hover:text-green-grab mb-3  mt-3 w-full rounded-md border-[1px] border-[#676767] p-3 text-center font-bold text-[#676767]">
+              <div className=" hover:border-green-500 hover:text-green-500 mb-3 mt-3 w-full rounded-md border-[1px] border-[#676767] p-3 text-center font-bold text-[#676767]">
                 See all promotions
               </div>
             </a>

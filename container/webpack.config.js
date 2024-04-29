@@ -40,6 +40,18 @@ module.exports = async (_, { mode = 'development' }) => ({
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.(svg|png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]',
+              outputPath: 'images', 
+            },
+          },
+        ],
+      },
     ],
   },
 

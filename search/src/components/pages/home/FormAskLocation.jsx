@@ -1,5 +1,5 @@
-import locationIcon from '../../assets/location-crosshairs-solid.svg'
-import chooseLocationIcon from '../../assets/location-dot-solid-red.svg'
+import locationIcon from '../../../assets/icons/location-crosshairs-solid.svg';
+import chooseLocationIcon from '../../../assets/icons/location-dot-solid-red.svg';
 
 function FormAskLocation() {
     return ( 

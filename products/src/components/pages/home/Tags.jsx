@@ -1,4 +1,4 @@
-import { TagBrand } from "../../utils/data/TagBrand";
+import { TagBrand } from "../../../utils/data/TagBrand";
 
 function Tags() {
   return (

@@ -1,5 +1,5 @@
-import SuggestImg from "../../assets/images/placeholder-restaurant-2by1.jpg";
-import SearchIcon from "../../assets/searchengin.svg";
+import SuggestImg from "../../../assets/images/placeholder-restaurant-2by1.jpg";
+import SearchIcon from "../../../assets/icons/searchengin.svg";
 
 function Suggest() {
   return (

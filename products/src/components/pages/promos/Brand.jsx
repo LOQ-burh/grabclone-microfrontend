@@ -1,7 +1,7 @@
-import { BrandLocal } from "../../utils/data/BrandLocal";
-import starIcon from "../../assets/star-solid.svg"
-import clockIcon from "../../assets/clock-regular.svg"
-import tagPromos from "../../assets/icon-promo-tag.svg"
+import { BrandLocal } from "../../../utils/data/BrandLocal";
+import starIcon from "../../../assets/icons/star-solid.svg";
+import clockIcon from "../../../assets/icons/clock-regular.svg";
+import tagPromos from "../../../assets/icons/icon-promo-tag.svg";
 
 function Brand() {
     return ( 

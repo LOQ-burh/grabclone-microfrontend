@@ -1,4 +1,4 @@
-import { BrandLocal } from '../../../../../../../../Users/Admin/Downloads/grabclone-ui/src/utils/data/BrandLocal';
+import { BrandLocal } from '../../utils/data/BrandLocal';
 import BreadCrumb from './BreadCrumb';
 import BrandDetail from './BrandDetail';
 import NavContent from './NavContent';
