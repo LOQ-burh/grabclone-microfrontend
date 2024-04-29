@@ -56,7 +56,9 @@ module.exports = (_, argv) => ({
       name: "search",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './FormAskSearch': './src/components/pages/home/FormAskLocation',
+      },
       shared: {
         ...deps,
         react: {

@@ -56,7 +56,13 @@ module.exports = (_, argv) => ({
       name: "products",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './TagFoodProducts': './src/components/pages/home/Tags',
+        './BrandHomeProducts': './src/components/pages/home/Brand',
+        './BrandPromosProducts': './src/components/pages/promos/Brand',
+        './SuggestProducts': './src/components/pages/promos/Suggest',
+        './ItemsProducts': './src/components/pages/restaurants/ItemProducts',
+      },
       shared: {
         ...deps,
         react: {
