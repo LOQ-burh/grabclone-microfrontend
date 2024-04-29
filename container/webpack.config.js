@@ -61,7 +61,9 @@ module.exports = async (_, { mode = 'development' }) => ({
       filename: "containerRemoteEntry.js",
       remotes: {
         Layout: "counterLayout@http://localhost:8086/counterLayoutRemoteEntry.js",
-        
+        contents: "contents@http://localhost:8087/remoteEntry.js",
+        products: "products@http://localhost:8084/remoteEntry.js",
+        search: "search@http://localhost:8083/remoteEntry.js",
       },
       shared: {
         ...deps,
