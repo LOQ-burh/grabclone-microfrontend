@@ -1,5 +1,5 @@
 import { TagBrand } from "../../../utils/data/TagBrand";
-
+import 'tailwindcss/tailwind.css';
 function Tags() {
   return (
     <a className="grid grid-cols-4 gap-4 mb-10" href="/">

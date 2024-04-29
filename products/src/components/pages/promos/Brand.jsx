@@ -2,6 +2,7 @@ import { BrandLocal } from "../../../utils/data/BrandLocal";
 import starIcon from "../../../assets/icons/star-solid.svg";
 import clockIcon from "../../../assets/icons/clock-regular.svg";
 import tagPromos from "../../../assets/icons/icon-promo-tag.svg";
+import 'tailwindcss/tailwind.css';
 
 function Brand() {
     return ( 

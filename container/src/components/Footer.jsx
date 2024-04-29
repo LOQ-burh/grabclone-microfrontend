@@ -1,7 +1,7 @@
-import FbIcon from '../../assets/square-twitter.svg';
-import logoGrabWhite from "../../assets/logo-grabfood-white2.svg";
-import logoAppStore from '../../assets/logo-appstore.svg';
-import logoPlayStore from '../../assets/logo-playstore.svg';
+import FbIcon from '../assets/icons/square-twitter.svg';
+import logoGrabWhite from "../assets/icons/logo-grabfood-white2.svg";
+import logoAppStore from '../assets/icons/logo-appstore.svg';
+import logoPlayStore from '../assets/icons/logo-playstore.svg';
 
 function Footer() {
   return (

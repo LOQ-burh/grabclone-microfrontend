@@ -1,3 +1,4 @@
+import 'tailwindcss/tailwind.css';
 function OptionDelivery() {
   return (
     <div className="flex">

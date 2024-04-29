@@ -1,5 +1,5 @@
 import PlusWhiteIcon from '../../../assets/icons/plus-solid-white.svg';
-
+import 'tailwindcss/tailwind.css';
 function ItemProducts(props) {
   return (
     <div className="lg:w-max-[383px] hover:border-green-grab w-full cursor-pointer rounded-[10px] bg-white p-5 pb-3 hover:border-[1px] ">

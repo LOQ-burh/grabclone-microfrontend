@@ -1,12 +1,12 @@
 import SuggestImg from "../../../assets/images/placeholder-restaurant-2by1.jpg";
 import SearchIcon from "../../../assets/icons/searchengin.svg";
-
+import 'tailwindcss/tailwind.css';
 function Suggest() {
   return (
     <div className="mt-20" style={{ width: 1200 }}>
       <div className="mb-5 flex h-fit  w-full rounded-e-full rounded-s-full bg-[#F7F7F7] p-2">
         <img
-          className="ml-5 h-[18px] w-[18px]"
+          className="ml-5 w-4 h-4" style={{marginLeft: '1.25rem', width: '1.2rem', height: '1.2rem' }}
           src={SearchIcon}
         ></img>
         <input

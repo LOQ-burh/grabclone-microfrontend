@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+    .md-min-w-355 {
+        max-width: 355px;
+    }
+}

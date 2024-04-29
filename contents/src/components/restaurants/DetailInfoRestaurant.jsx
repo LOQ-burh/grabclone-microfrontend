@@ -2,6 +2,7 @@ import { BrandLocal } from '../../utils/data/BrandLocal';
 import BreadCrumb from './BreadCrumb';
 import BrandDetail from './BrandDetail';
 import NavContent from './NavContent';
+import 'tailwindcss/tailwind.css';
 function DetailInfoRestaurant() {
     return ( 
         <div className="mt-24" style={{ width: 1200 }}>

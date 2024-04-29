@@ -1,13 +1,13 @@
 // Container
-import HeaderWhite from '../components/layouts/HeaderWhite';
-import Footer from '../components/layouts/Footer';
+import HeaderWhite from '../components/HeaderWhite';
+import Footer from '../components/Footer';
 
 // Products
-import Suggest from '../components/promos/Suggest';
-import BrandProducts from '../components/promos/Brand';
+import Suggest from 'products/SuggestProducts';
+import BrandProducts from 'products/BrandPromosProducts';
 
 // Contents
-import BreadCrumbPromos from '../components/promos/BreadCrumb';
+import BreadCrumbPromos from 'contents/BreadCrumbPromosContents';
 
 function Promos() {
     return ( 

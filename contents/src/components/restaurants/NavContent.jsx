@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { NavFood } from "../../utils/data/NavFood";
-
+import 'tailwindcss/tailwind.css';
 
 function NextArrow(props) {
     const { className, style, onClick } = props;

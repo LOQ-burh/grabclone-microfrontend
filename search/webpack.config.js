@@ -37,7 +37,7 @@ module.exports = (_, argv) => ({
         },
       },
       {
-        test: /\.(svg|png|jpe?g|gif)$/i,
+        test: /\.(webp|svg|png|jpe?g|gif)$/i,
         use: [
           {
             loader: 'file-loader',
@@ -57,7 +57,7 @@ module.exports = (_, argv) => ({
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        './FormAskSearch': './src/components/pages/home/FormAskLocation',
+        './FormAskLocation': './src/components/pages/home/FormAskLocation',
       },
       shared: {
         ...deps,

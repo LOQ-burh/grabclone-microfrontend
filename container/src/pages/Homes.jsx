@@ -1,15 +1,15 @@
 // Container
-import Header from "../components/layouts/Header";
-import Footer from "../components/layouts/Footer";
+import Header from "../components/Header"; 
+import Footer from "../components/Footer"; 
 
-// Search
-import FormAsk from "../components/home/FormAskLocation";
+// micro-app:search
+import FormAsk from "search/FormAskLocation"; 
 
-// Products
-import TagFood from "../components/home/Tags";
-import Brand from "../components/home/Brand";
+// micro-app:Products
+import TagFood from "products/TagFoodProducts"; 
+import Brand from "products/BrandHomeProducts"; 
 
-import TagImg from "../assets/images/tag-com.webp";
+import TagImg from "../assets/images/tag-com.webp"; 
 
 function Homes() {
   return (
@@ -22,7 +22,7 @@ function Homes() {
       <div className="flex justify-center">
         <div style={{ width: 1200 }}>
           <div>
-            <FormAsk />
+            <FormAsk/>
             <div
               className="z-10 mb-20 mt-96"
               style={{ border: "1px solid #e5e9f0" }}

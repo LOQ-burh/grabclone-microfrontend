@@ -41,7 +41,7 @@ module.exports = async (_, { mode = 'development' }) => ({
         },
       },
       {
-        test: /\.(svg|png|jpe?g|gif)$/i,
+        test: /\.(webp|svg|png|jpe?g|gif)$/i,
         use: [
           {
             loader: 'file-loader',

@@ -1,5 +1,5 @@
 import ArrowRight from '../../assets/icons/chevron-right-solid.svg';
-
+import 'tailwindcss/tailwind.css';
 function BreadCrumb() {
   return (
     <div className="flex text-[17px] items-center">

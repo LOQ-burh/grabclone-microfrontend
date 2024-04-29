@@ -1,39 +1,32 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-// From micro counterLayout
-// import Promos from "counterLayout/Promos";
-// import Restaurants from "counterLayout/Res";
-// import Checkout from "counterLayout/Checkout";
-// import { Home } from "counterLayout/Home";
-import Infor from "./Infor";
+// import Infor from "./Infor";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // ========================
 import "./index.scss";
 
-// const CounterLayoutRootAppHome = React.lazy(() => Home);
-const CounterLayoutRootApp = React.lazy(() => import('Layout/App'));
+import Homes from "./pages/Homes";
+import Promos from "./pages/Promos";
+
+// const CounterLayoutRootApp = React.lazy(() => import("Layout/App"));
 
 export default function App() {
     return (
         <div className="app-root">
-            <React.Suspense fallback="Loading">
-                <Routes>
-                    <Route path="/" element={<Infor />} />
-                    <Route
-                        path="/counterLayout/*"
-                        element={<CounterLayoutRootApp />}
-                    />
-                </Routes>
-            </React.Suspense>
+            <Router>
+                <React.Suspense fallback={<div>loading...</div>}>
+                    <Routes>
+                        {/* <Route path="/" element={<Infor />} /> */}
+                        <Route path="/" element={<Homes />} />
+                        <Route path="/promostion" element={<Promos />} />
+                    </Routes>
+                </React.Suspense>
+            </Router>
         </div>
     );
 }
-
-const root = createRoot(document.getElementById("app"));
-root.render(
+createRoot(document.getElementById("app")).render(
     <StrictMode>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
+        <App />
     </StrictMode>,
 );

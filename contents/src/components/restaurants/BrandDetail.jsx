@@ -3,6 +3,7 @@ import starIcon from "../../assets/icons/star-solid.svg";
 import clockIcon from "../../assets/icons/clock-regular.svg";
 import tagPromos from "../../assets/icons/icon-promo-tag.svg";
 import OptionDelivery from "./OptionDelivery";
+import 'tailwindcss/tailwind.css';
 function Brand(props) {
   return (
     <div className="flex flex-wrap justify-center mb-10">

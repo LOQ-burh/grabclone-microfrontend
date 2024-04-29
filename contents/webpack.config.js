@@ -37,7 +37,7 @@ module.exports = (_, argv) => ({
         },
       },
       {
-        test: /\.(svg|png|jpe?g|gif)$/i,
+        test: /\.(webp|svg|png|jpe?g|gif)$/i,
         use: [
           {
             loader: 'file-loader',
@@ -58,7 +58,7 @@ module.exports = (_, argv) => ({
       remotes: {},
       exposes: {
         './BreadCrumbPromosContents': './src/components/promos/BreadCrumb',
-        './DetailInfoRestaurantContents': './src/components/promos/DetailInfoRestaurant',
+        './DetailInfoRestaurantContents': './src/components/restaurants/DetailInfoRestaurant',
       },
       shared: {
         ...deps,
