@@ -1,9 +1,14 @@
+// Container
 import HeaderWhite from '../components/layouts/HeaderWhite';
 import Footer from '../components/layouts/Footer';
 
+// Products
 import Suggest from '../components/promos/Suggest';
-import BreadCrumbPromos from '../components/promos/BreadCrumb';
 import BrandProducts from '../components/promos/Brand';
+
+// Contents
+import BreadCrumbPromos from '../components/promos/BreadCrumb';
+
 function Promos() {
     return ( 
         <div>

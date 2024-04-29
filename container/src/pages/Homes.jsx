@@ -1,10 +1,16 @@
+// Container
 import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
+
+// Search
 import FormAsk from "../components/home/FormAskLocation";
+
+// Products
 import TagFood from "../components/home/Tags";
 import Brand from "../components/home/Brand";
 
 import TagImg from "../assets/images/tag-com.webp";
+
 function Homes() {
   return (
     <div>

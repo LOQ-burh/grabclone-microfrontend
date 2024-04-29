@@ -2,12 +2,19 @@ import React, { useState } from "react";
 import {
   Typography,
 } from "@material-tailwind/react";
+import { BrandLocal } from "../utils/data/BrandLocal";
+import FoodImg from '../assets/images/com-ga-goc-tu.webp';
+
+// Container
 import HeaderWhite from "../components/layouts/HeaderWhite";
 import Footer from "../components/layouts/Footer";
+
+// Contents
 import DetailInfoRestaurant from "../components/restaurants/DetailInfoRestaurant";
-import { BrandLocal } from "../utils/data/BrandLocal";
+
+// Products
 import ItemProducts from "../components/restaurants/ItemProducts";
-import FoodImg from '../assets/images/com-ga-goc-tu.webp';
+
 function Restaurant() {
   //state close menu
   const [openRight, setOpenRight] = React.useState(true);

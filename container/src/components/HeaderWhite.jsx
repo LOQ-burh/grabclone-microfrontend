@@ -1,5 +1,5 @@
-import FormHeaderSearch from "../layouts/FormHeaderSearch";
-import logoGrabGreen from "../../assets/logo-grabfood-green.svg";
+import FormHeaderSearch from "../components/FormHeaderSearch";
+import logoGrabGreen from "../assets/icons/logo-grabfood-green.svg";
 
 function HeaderWhite() {
   return (

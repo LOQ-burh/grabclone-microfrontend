@@ -1,4 +1,4 @@
-import chooseLocationIcon from '../../assets/location-dot-solid-red.svg';
+import chooseLocationIcon from '../assets/icons/location-dot-solid-red.svg';
 
 function FormHeaderSearch() {
     return ( 
