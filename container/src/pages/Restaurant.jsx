@@ -6,14 +6,14 @@ import { BrandLocal } from "../utils/data/BrandLocal";
 import FoodImg from '../assets/images/com-ga-goc-tu.webp';
 
 // Container
-import HeaderWhite from "../components/layouts/HeaderWhite";
-import Footer from "../components/layouts/Footer";
+import HeaderWhite from "../components/HeaderWhite";
+import Footer from "../components/Footer";
 
 // Contents
-import DetailInfoRestaurant from "../components/restaurants/DetailInfoRestaurant";
+import DetailInfoRestaurant from "contents/DetailInfoRestaurantContents";
 
 // Products
-import ItemProducts from "../components/restaurants/ItemProducts";
+import ItemProducts from "products/ItemsProducts";
 
 function Restaurant() {
   //state close menu

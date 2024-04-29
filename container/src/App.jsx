@@ -7,6 +7,7 @@ import "./index.scss";
 
 import Homes from "./pages/Homes";
 import Promos from "./pages/Promos";
+import Restaurant from "./pages/Restaurant";
 
 // const CounterLayoutRootApp = React.lazy(() => import("Layout/App"));
 
@@ -19,6 +20,7 @@ export default function App() {
                         {/* <Route path="/" element={<Infor />} /> */}
                         <Route path="/" element={<Homes />} />
                         <Route path="/promostion" element={<Promos />} />
+                        <Route path="/restaurant" element={<Restaurant />} />
                     </Routes>
                 </React.Suspense>
             </Router>
