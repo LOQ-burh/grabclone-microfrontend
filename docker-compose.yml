@@ -1,0 +1,22 @@
+version: '3'
+services:
+  search:
+    build: ./search
+    ports:
+      - "8083:8083"
+    container_name: search
+  products:
+    build: ./products
+    ports:
+      - "8084:8084"
+    container_name: products
+  contents:
+    build: ./contents
+    ports:
+      - "8087:8087"
+    container_name: contents
+  mainApp:
+    build: ./container
+    ports:
+      - "8080:8080"
+    container_name: container

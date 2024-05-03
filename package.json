@@ -1,0 +1,19 @@
+{
+  "name": "grabclone-microfrontend",
+  "version": "1.0.0",
+  "description": "This project has been created with two purposes:",
+  "main": "webpack.config.js",
+  "scripts": {
+    "serve": "lerna run --parallel serve",
+    "kill-ports": "kill-port --port 3000,3001,3002,3003,3004,3005,3006"
+  },
+  "devDependencies": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LOQ-burh/grabclone-microfrontend.git"
+  },
+  "author": "John-burh",
+  "license": "ISC"
+}
