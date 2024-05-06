@@ -1,0 +1,25 @@
+{
+  "name": "gatewayserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gateway.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^2.7.5",
+    "@apollo/server": "^4.10.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "graphql": "^16.8.1",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "lerna": "^6.4.1",
+    "nodemon": "^3.1.0"
+  }
+}

@@ -1,0 +1,1 @@
+npm i --save-dev webpack@5.57.1 webpack-cli@4.10.0 webpack-dev-server@4.3.1

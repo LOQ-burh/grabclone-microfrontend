@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "Backend.sln",
+    "git.ignoreLimitWarning": true
+}

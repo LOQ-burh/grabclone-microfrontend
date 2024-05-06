@@ -1,0 +1,36 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": {
+    "packages": [
+        "checkout",
+        "contents",
+        "products",
+        "search",
+        "container"
+    ]
+},
+  "scripts": {
+    "serve": "lerna run --parallel start",
+    "prepare": "lerna run --parallel prepare",
+    "start-search": "webpack serve --open --mode development --config ../packages/search/webpack.config.js",
+    "start-container": "webpack serve --open --mode development --config ../packages/container/webpack.config.js",
+    "start-contents": "webpack serve --open --mode development --config ../packages/contents/webpack.config.js",
+    "start-products": "webpack serve --open --mode development --config ../packages/products/webpack.config.js",
+    "start-checkout": "webpack serve --open --mode development --config ../packages/checkout/webpack.config.js",
+    "start-micro-app": "concurrently \"npm:start-*\"", 
+    "kill-ports": "kill-port --port 8080,8083,8084,8087,8085"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "kill-port": "^1.6.1",
+    "lerna": "^6.4.1",
+    "nodemon": "^3.1.0",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}

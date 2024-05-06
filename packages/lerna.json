@@ -1,0 +1,12 @@
+{
+    "packages": [
+        "packages/container",
+        "packages/checkout",
+        "packages/contents",
+        "packages/products",
+        "packages/search"
+    ],
+    "version": "0.0.0",
+    "npmClient": "npm",
+	"useWorkspaces": true
+}

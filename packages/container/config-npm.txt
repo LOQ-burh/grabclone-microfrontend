@@ -1,0 +1,1 @@
+"start": "webpack serve --open --mode development",
