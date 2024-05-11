@@ -27,6 +27,12 @@
               "script": "serve"
             }
           },
+          "prepare": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "prepare"
+            }
+          },
           "build": {
             "executor": "nx:run-script",
             "options": {
@@ -87,26 +93,26 @@
           },
           {
             "file": "container/package.json",
-            "hash": "15315415651534768581",
+            "hash": "13645281308520383805",
             "dependencies": [
               {
+                "source": "container",
                 "target": "npm:@babel/runtime",
-                "source": "container",
                 "type": "static"
               },
               {
+                "source": "container",
                 "target": "npm:webpack",
-                "source": "container",
                 "type": "static"
               },
               {
+                "source": "container",
                 "target": "npm:webpack-cli",
-                "source": "container",
                 "type": "static"
               },
               {
-                "target": "npm:webpack-dev-server",
                 "source": "container",
+                "target": "npm:webpack-dev-server",
                 "type": "static"
               }
             ]
@@ -328,6 +334,12 @@
               "script": "serve"
             }
           },
+          "prepare": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "prepare"
+            }
+          },
           "build": {
             "executor": "nx:run-script",
             "options": {
@@ -388,26 +400,26 @@
           },
           {
             "file": "checkout/package.json",
-            "hash": "16401047377580694394",
+            "hash": "5312891174110972222",
             "dependencies": [
               {
+                "source": "checkout",
                 "target": "npm:@babel/runtime",
-                "source": "checkout",
                 "type": "static"
               },
               {
+                "source": "checkout",
                 "target": "npm:webpack",
-                "source": "checkout",
                 "type": "static"
               },
               {
+                "source": "checkout",
                 "target": "npm:webpack-cli",
-                "source": "checkout",
                 "type": "static"
               },
               {
-                "target": "npm:webpack-dev-server",
                 "source": "checkout",
+                "target": "npm:webpack-dev-server",
                 "type": "static"
               }
             ]
@@ -593,6 +605,12 @@
               "script": "serve"
             }
           },
+          "prepare": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "prepare"
+            }
+          },
           "build": {
             "executor": "nx:run-script",
             "options": {
@@ -653,26 +671,26 @@
           },
           {
             "file": "contents/package.json",
-            "hash": "15111508686436093079",
+            "hash": "13766761725141146750",
             "dependencies": [
               {
+                "source": "contents",
                 "target": "npm:@babel/runtime",
-                "source": "contents",
                 "type": "static"
               },
               {
+                "source": "contents",
                 "target": "npm:webpack",
-                "source": "contents",
                 "type": "static"
               },
               {
+                "source": "contents",
                 "target": "npm:webpack-cli",
-                "source": "contents",
                 "type": "static"
               },
               {
-                "target": "npm:webpack-dev-server",
                 "source": "contents",
+                "target": "npm:webpack-dev-server",
                 "type": "static"
               }
             ]
@@ -886,6 +904,12 @@
               "script": "serve"
             }
           },
+          "prepare": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "prepare"
+            }
+          },
           "build": {
             "executor": "nx:run-script",
             "options": {
@@ -946,26 +970,26 @@
           },
           {
             "file": "products/package.json",
-            "hash": "14538147980384128734",
+            "hash": "10943302676534439802",
             "dependencies": [
               {
+                "source": "products",
                 "target": "npm:@babel/runtime",
-                "source": "products",
                 "type": "static"
               },
               {
+                "source": "products",
                 "target": "npm:webpack",
-                "source": "products",
                 "type": "static"
               },
               {
+                "source": "products",
                 "target": "npm:webpack-cli",
-                "source": "products",
                 "type": "static"
               },
               {
-                "target": "npm:webpack-dev-server",
                 "source": "products",
+                "target": "npm:webpack-dev-server",
                 "type": "static"
               }
             ]
@@ -1175,6 +1199,12 @@
               "script": "serve"
             }
           },
+          "prepare": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "prepare"
+            }
+          },
           "build": {
             "executor": "nx:run-script",
             "options": {
@@ -1235,26 +1265,26 @@
           },
           {
             "file": "search/package.json",
-            "hash": "16838160671128433607",
+            "hash": "17791350231951677130",
             "dependencies": [
               {
+                "source": "search",
                 "target": "npm:@babel/runtime",
-                "source": "search",
                 "type": "static"
               },
               {
+                "source": "search",
                 "target": "npm:webpack",
-                "source": "search",
                 "type": "static"
               },
               {
+                "source": "search",
                 "target": "npm:webpack-cli",
-                "source": "search",
                 "type": "static"
               },
               {
-                "target": "npm:webpack-dev-server",
                 "source": "search",
+                "target": "npm:webpack-dev-server",
                 "type": "static"
               }
             ]

@@ -41,4 +41,4 @@ npm run prepare
 npm run serve
 ```
 
-You will see a UI for Grab on http://localhost:8080
+You will see a UI's Grab on http://localhost:8080

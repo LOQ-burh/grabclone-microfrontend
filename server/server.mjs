@@ -7,7 +7,7 @@ import { expressMiddleware } from '@apollo/server/express4';
 import cors from 'cors';
 import { promises } from 'dns';
 import { resolve } from 'path';
-import FakeData from './FakeData/index.js';
+import FakeData from './data/index.js';
 
 const app = express();
 const httpServer = http.createServer(app);
@@ -41,6 +41,7 @@ const resolvers = {
 };
 
 // resolvers - schema
+// operation: Query -Mutation -Subscription
 const server = new ApolloServer({
     typeDefs,
     resolvers,

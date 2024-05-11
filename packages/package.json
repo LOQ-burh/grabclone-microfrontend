@@ -12,12 +12,13 @@
 },
   "scripts": {
     "serve": "lerna run --parallel start",
+    "build": "lerna run --parallel build",
     "prepare": "lerna run --parallel prepare",
     "start-search": "webpack serve --open --mode development --config ../packages/search/webpack.config.js",
     "start-container": "webpack serve --open --mode development --config ../packages/container/webpack.config.js",
-    "start-contents": "webpack serve --open --mode development --config ../packages/contents/webpack.config.js",
-    "start-products": "webpack serve --open --mode development --config ../packages/products/webpack.config.js",
-    "start-checkout": "webpack serve --open --mode development --config ../packages/checkout/webpack.config.js",
+    "start-contents": "webpack serve --mode development --config ../packages/contents/webpack.config.js",
+    "start-products": "webpack serve --mode development --config ../packages/products/webpack.config.js",
+    "start-checkout": "webpack serve --mode development --config ../packages/checkout/webpack.config.js",
     "start-micro-app": "concurrently \"npm:start-*\"", 
     "kill-ports": "kill-port --port 8080,8083,8084,8087,8085"
   },
